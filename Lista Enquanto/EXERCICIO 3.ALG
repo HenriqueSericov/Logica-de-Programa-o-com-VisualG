@@ -1,0 +1,25 @@
+Algoritmo "Exercicio 3"
+// Disciplina   : [Lógica de Programação com JavaScript]
+// Professor   : Jailson
+// Descrição   :  Elaborar um programa que apresente no final o somatório dos valores pares existentes na faixa de 1 até 500.
+// Autor(a)    : Henrique Sericov Mieskalo
+// Data atual  : 31/08/2022
+Var
+// Seção de Declarações das variáveis 
+numero,soma:inteiro
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc... 
+
+enquanto numero<=500 faca
+se numero % 2 = 0 entao
+soma<-soma+numero
+numero<-numero+1
+senao
+numero<-numero+1
+fimse
+fimenquanto
+escreval
+escreval(soma)
+
+Fimalgoritmo
